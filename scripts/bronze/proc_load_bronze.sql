@@ -4,6 +4,8 @@ Bronze Procedure with load data into Tables
 =============================================================
 Script Purpose:
 Stored procedure to load data into Tables
+-------------------------Execution--------------------------
+call bronze.load_bronze();
 */
 
 CREATE OR REPLACE PROCEDURE bronze.load_bronze()
